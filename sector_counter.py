@@ -117,6 +117,7 @@ def sorting():
                 t.append(line[1])
             elif int(line[2]) <= 99:
                 u.append(line[1])
+                
     sector_list = [a, b, c, d, e ,f ,g, h, i, j, k, l, m, n, o, p, q, r, s, t, u]
     alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u']
     for i in range(len(sector_list)):
